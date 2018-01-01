@@ -39,70 +39,152 @@
   <body lang="en">
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T3BCLF2" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div id="content">
-      <div class="ui inverted vertical center aligned segment">
+      <div class="ui inverted vertical center aligned segment" id="menu">
         <div class="ui container">
           <div class="ui massive borderless inverted menu">
             <h1 class="header item">
-              Color
+              1000000
             </h1>
             <div class="right item">
               <div class="ui massive secondary inverted pointing menu">
-                <a class="active item">Home</a><a class="item">Feature</a><a class="item">Contact</a>
+                <a class="active item">元</a>
               </div>
             </div>
           </div>
         </div>
-        <div class="ui text container">
-          <h1 class="ui inverted header">
-            Cover your page.
+      </div>
+      <div class="ui container" id="narrow">
+        <div class="ui message center aligned grid">
+          <h1 class="ui huge header">
+            百万实验室
           </h1>
-          <p>
-            Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.
+          <p class="lead">
+            百万实验室是一个实验，目的是帮助所有加入社区的人，从零开始，赚到人生第一个一百万。
           </p>
-          <div class="ui massive white button">
-            Learn more
+          <a class="ui massive green button">社区建设中</a>
+        </div>
+        <div class="ui two column grid">
+          <div class="column">
+            <div class="row">
+              <h2 class="ui header">
+                目标
+              </h2>
+              <p>
+                赚到一百万元
+              </p>
+            </div>
+            <div class="row">
+              <h2 class="ui header">
+                方法
+              </h2>
+              <p>
+                发现问题，探索问题，解决问题
+              </p>
+            </div>
+            <div class="row">
+              <h2 class="ui header">
+                过程
+              </h2>
+              <p>
+                记录想法，分享心得，增长技能，结交朋友
+              </p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="row">
+              <h2 class="ui header">
+                原则
+              </h2>
+              <p>
+                一切都为了钱
+              </p>
+            </div>
+            <div class="row">
+              <h2 class="ui header">
+                途径
+              </h2>
+              <p>
+                大胆猜想，谨慎求证，尊重事实
+              </p>
+            </div>
+            <div class="row">
+              <h2 class="ui header">
+                态度
+              </h2>
+              <p>
+                不迷信权威，不妄自菲薄，不狂妄自大
+              </p>
+            </div>
           </div>
         </div>
-        <div class="ui inverted vertical footer segment">
-          Cover template for <a href="http://semantic-ui.com">Semantic-UI</a>, by <a href="https://github.com/semantic-ui-forest">@Semantic-UI-Forest</a>.
-        </div>
+        <div class="ui divider"></div>
+        <footer class="ui vertical footer segment">
+          <p>
+            如果希望提供技术、资金或其他支持，可发邮件至<a href="mailto:tarvos21@gmail.com?Subject=百万实验室" target="_top">tarvos21@gmail.com</a>
+          </p>
+          <p>
+            建设百万实验室的初衷可见<a href="https://zhuanlan.zhihu.com/wenwu/12323">知乎文章</a>
+          </p>
+        </footer>
       </div>
       <style type="text/css">
-        .ui.inverted.vertical.segment {
-          height: 100vh;
+        #menu {
+          padding-bottom: 0;
         }
-        .ui.inverted.vertical.segment h1.header.item {
-          font-size: 2em;
+        #menu .ui.container {
+          width: 60%;
         }
-        .ui.inverted.vertical.segment a.item {
+        #menu .ui.container h1.header {
+          padding-left: 0;
+        }
+        #menu .ui.container .right.item {
+          padding-right: 0;
+        }
+        
+        #narrow.ui.container {
+          width: 60%;
+        }
+        #narrow.ui.container > .ui.menu {
+          border-width: 0 0 1px 0;
+          border-radius: 0;
+          height: 4em;
+        }
+        #narrow.ui.container > .ui.menu .header.item {
+          padding-left: 0;
           font-size: 1.2em;
         }
-        .ui.inverted.vertical.segment .ui.text.container {
-          height: 300px;
-          position: absolute;
-          top: 0;
-          bottom: 0;
-          left: 0;
-          right: 0;
-          margin: auto;
+        #narrow.ui.container .secondary.menu .item {
+          color: #337ab7;
         }
-        .ui.inverted.vertical.segment .ui.text.container h1.header {
-          font-size: 3em;
-        }
-        .ui.inverted.vertical.segment .ui.text.container p {
-          font-size: 1.6em;
-          line-height: 1.6;
-        }
-        .ui.inverted.vertical.segment .ui.footer.segment {
-          height: 80px;
-          width: 100%;
-          position: absolute;
-          bottom: 0;
-          font-size: 1.2em;
-          color: gray;
-        }
-        .ui.inverted.vertical.segment .ui.footer.segment a {
+        #narrow.ui.container .secondary.menu .item.active {
+          background-color: #337ab7;
           color: white;
+        }
+        #narrow.ui.container .ui.message {
+          background-color: rga(238, 238, 238);
+          box-shadow: none;
+          padding: 3em 0em;
+        }
+        #narrow.ui.container .ui.message p.lead {
+          padding: 0;
+          margin: 0.4em 0 0.6em;
+        }
+        #narrow.ui.container h1.ui.header {
+          font-size: 2.5em;
+          margin-bottom: 0.4em;
+        }
+        #narrow.ui.container p.lead {
+          font-size: 1.3em;
+          color: #333333;
+          line-height: 1.4;
+          font-weight: 300;
+        }
+        #narrow.ui.container .ui.grid .row {
+          margin-bottom: 1.5em;
+        }
+        
+        footer.ui.vertical.footer.segment {
+          padding: 0 0 1em;
         }
       </style>
     </div>
