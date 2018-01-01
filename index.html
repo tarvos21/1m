@@ -54,14 +54,20 @@
         </div>
       </div>
       <div class="ui container" id="narrow">
-        <div class="ui message center aligned grid">
-          <h1 class="ui huge header">
-            百万实验室
-          </h1>
-          <p class="lead">
-            百万实验室是一个实验，目的是帮助所有加入社区的人，从零开始，赚到人生第一个一百万。
-          </p>
-          <a class="ui massive green button">社区建设中</a>
+        <div class="ui message center aligned grid" id="head">
+          <div class="row">
+            <h1 class="ui huge header">
+              百万实验室
+            </h1>
+          </div>
+          <div class="row">
+            <p class="lead">
+              百万实验室是一个实验，目的是帮助所有加入社区的人，从零开始，赚到人生第一个一百万。
+            </p>
+          </div>
+          <div class="row">
+            <a class="ui massive green button">社区建设中</a>
+          </div>
         </div>
         <div class="ui two column grid">
           <div class="column">
@@ -139,6 +145,11 @@
         }
         #menu .ui.container .right.item {
           padding-right: 0;
+        }
+        
+        #head .row {
+          margin: 0;
+          padding: 0;
         }
         
         #narrow.ui.container {
