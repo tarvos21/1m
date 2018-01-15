@@ -30,6 +30,6 @@ Nanoc-Plate(http://nanoc-plate.github.io/)
 GitHub-Cards(https://github.com/lepture/github-cards)
 
 /* SITE */
-Last updated: 2017/06/05
+Last updated: 2018/01/15
 Languages: Chinese/English
 Doctype: HTML5
